@@ -1,0 +1,155 @@
+@media (max-width: 1300px) {
+    .home .max-width{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:1104px)
+{
+    .about .about-content .left img{
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 991px){
+    .max-width{
+        padding: 0 50px;
+        
+    }
+    
+}
+@media (max-width: 947px) {
+    
+    .nav-btn{
+        display: block;
+        z-index: 999;
+    }
+
+    .nav-btn i.active:before{
+        content: "\f00d";
+    }
+
+    .navbar .nav-items{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        text-align: center;
+        padding-top: 80px;
+        background-color: black;
+        transition: all 0.3s ease;
+    }
+
+    .navbar .nav-items.active{
+        left: 0;
+    }
+
+    .navbar .nav-items li{
+        display: block;
+    }
+
+    .navbar .nav-items li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+
+    .navbar .nav-items li a:hover{
+        color: blue;
+    }
+
+    .home .home-content .text-2{
+        font-size: 70px;
+    }
+    
+    .home .home-content .text-3{
+        font-size: 35px;
+    }
+
+    .max-width{
+        max-width: 800px;
+    }
+
+    .about .about-content{
+        width: 100%;
+    }
+
+    .about .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+
+    .about .about-content .right{
+        flex: 100%;
+    }
+    
+    .projects .projects-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+
+    .projects .projects-content .card .text{
+        font-size: 25px;
+    }
+
+    .skills .skills-content .column{
+        width: 100%;
+    }
+}
+
+@media (max-width: 690px)
+{
+    .max-width{
+        padding: 0 23px;
+    }
+
+    .home .max-width{
+        padding: 0 23px;
+    }
+
+    .home .home-content .text-2{
+        font-size: 60px;
+    }
+    
+    .home .home-content .text-3{
+        font-size: 32px;
+    }
+
+    .projects .projects-content .card{
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .max-width{
+        padding: 0 20px;
+    }
+
+     .home .home-content .text-2{
+        font-size: 50px;
+    }
+    
+    .home .home-content .text-3{
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 400px)
+{
+    .max-width{
+        padding: 0 20px;
+    }
+
+     .home .home-content .text-2{
+        margin: 6px 0;
+        font-size: 36px;
+    }
+    
+    .home .home-content .text-3{
+        font-size: 23px;
+    }
+}
