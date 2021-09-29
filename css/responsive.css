@@ -95,8 +95,12 @@
         font-size: 25px;
     }
 
-    .skills .skills-content .column{
+    .skills .skills-content .column, .contact.contact-content .column{
         width: 100%;
+    }
+
+    .contact .right form .fields{
+        flex-direction: column;
     }
 }
 

@@ -131,7 +131,7 @@ section{
     transform: translateX(-50%);
 }
 
-.about .about-content, .projects-content, .skills-content{
+.about .about-content, .projects-content, .skills-content, .contact-content{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -387,4 +387,131 @@ section{
 
 .skills-content .right .vscode::before{
     width: 90%;
+}
+
+/* contact section style */
+.contact{
+    font-family: 'Poppins', sans-serif;
+    background-color: crimson;
+    color: white;
+}
+
+.contact .head{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 70px;
+    padding-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.contact .head::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 190px;
+    height: 3px;
+    background-color: white;
+    transform: translateX(-50%);
+}
+
+.contact.contact-content .column{
+    width: calc(50% - 30px);
+}
+
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.contact .contact-content .row i{
+   font-size: 25px;
+   color: black;
+}
+
+.contact .contact-content .left{
+    margin-bottom: 20px;
+}
+
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.contact .contact-content .info{
+    margin-left: 30px;
+}
+
+.contact .contact-content .info .heading{
+    font-weight: 500;
+}
+
+.contact .right form .fields{
+    display: flex;
+    
+}
+
+.contact .right form .field, .contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .right form .message{
+    height: 90px;
+    width: 100%;
+}
+
+.contact .right form .field input, .contact .right form .message textarea{
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    outline: none;
+    padding: 0px 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact .right form .message textarea{
+    padding-top: 10px;
+    resize: none;
+}
+
+.contact .right form .name{
+    margin-right: 10px;
+}
+
+.contact .right form .button{
+    height: 47px;
+    width: 180px;
+}
+
+.contact .right form .button button{
+    width: 100%;
+    height: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Poppins',sans-serif;
+    background-color: black;
+    outline: none;
+    color: white;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact .right form .button button:hover{
+    background-color: darkviolet;
+    border: 2px solid darkviolet;
+    
 }
