@@ -12,20 +12,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     <script  src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
 </head>
 
 <body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
     <nav class="navbar">
         <div class="max-width">
             <div class="logo">
                 <a href="#"><img src="img/logo.PNG" alt="logo"></a>
             </div>
             <ul class="nav-items">
-                <li><a href="#">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="nav-btn">
                 <i class="fas fa-bars"></i>
@@ -39,7 +43,7 @@
             <div class="home-content">
                 <div class="text-1">Hello, I'm</div>
                 <div class="text-2">Vaibhav Shanbhag</div>
-                <div class="text-3">And I'm a <span>Android Developer</span></div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
             </div>
         </div>
     </section>
@@ -197,7 +201,7 @@
         </div>
     </section>
 
-    <!-- contact section style -->
+    <!-- contact section -->
     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="head">Contact Me</h2>
@@ -253,23 +257,27 @@
             </div>
         </div>
     </section>
+
+    <!-- footer section -->
     <footer class="footer">
-        <div class="social-links">
-            <div class="links insta">
-                <a href=""><i class="fab fa-instagram"></i></a>
+        <div class="min-width">
+            <div class="social-links">
+                <div class="links insta">
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="links linkdin">
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <div class="links github">
+                    <a href=""><i class="fab fa-github"></i></a>
+                </div>
+                <div class="links youtube">
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                </div>
             </div>
-            <div class="links linkdin">
-                <a href=""><i class="fab fa-linkedin"></i></a>
-            </div>
-            <div class="links github">
-                <a href=""><i class="fab fa-github"></i></a>
-            </div>
-            <div class="links youtube">
-                <a href=""><i class="fab fa-youtube"></i></a>
-            </div>
+            <p>&copy; Copyright <span>Vaibhav Shanbhag.</span></p>
+            <p>All Rights Reserved</p>
         </div>
-        <p>&copy; Copyright <span>Vaibhav Shanbhag.</span></p>
-        <p>All Rights Reserved</p>
     </footer>
     <script src="js/script.js"></script>
 </body>
