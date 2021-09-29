@@ -515,3 +515,35 @@ section{
     border: 2px solid darkviolet;
     
 }
+
+/* footer section style */
+.footer{
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer .social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .social-links .links{
+    color: white;
+    margin: 20px;
+}
+
+.footer .links a  i{
+    font-size: 30px;
+    color: darkviolet;    
+}
+
+.footer p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+.footer p span{
+    font-weight: 500;
+}
