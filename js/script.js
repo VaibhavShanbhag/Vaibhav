@@ -17,11 +17,21 @@ $(document).ready(function(){
     });
 
     $('.scroll-up-btn').click(function(){
-        $('html').animate({scrollTo: 0})
+        $('html').animate({scrollTop: 0});
+
+        $('html').css("scrollBehavior", "auto");
+    });
+
+    $('.navbar .nav-items li a').click(function(){
+
+        $('html').css("scrollBehavior", "smooth");
+        $('.navbar .nav-items').removeClass("active");
+        $('.nav-btn i').removeClass("active");
+
     });
 
     var typed = new Typed(".typing", {
-        strings: ["Android Development", "Web Development","Student", "Youtuber"],
+        strings: ["Android Developer", "Frontend Web Developer","Student", "Youtuber"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
