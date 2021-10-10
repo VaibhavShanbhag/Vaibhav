@@ -11,6 +11,20 @@ html{
     scroll-behavior: smooth;
 }
 
+html::-webkit-scrollbar{
+    width: 15px;
+
+}
+
+html::-webkit-scrollbar-track{
+    background-color: lightgrey;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: darkviolet;
+    border-radius: 50px;
+}
+
 /* navbar style */
 .max-width{
     max-width: 1300px;
@@ -569,7 +583,8 @@ section{
 
 .footer .links a  i{
     font-size: 30px;
-    color: darkviolet;    
+    color: darkviolet;
+    transition: all 0.3s ease;  
 }
 
 .footer .links a i:hover{
