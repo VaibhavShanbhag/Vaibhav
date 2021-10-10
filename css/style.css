@@ -89,6 +89,10 @@ html{
     transition: all 0.3s ease;
 }
 
+.scroll-up-btn:hover{
+    box-shadow: 5px 5px 10px gray;
+}
+
 .scroll-up-btn.show{
     bottom: 30px;
     opacity: 1;
@@ -566,6 +570,10 @@ section{
 .footer .links a  i{
     font-size: 30px;
     color: darkviolet;    
+}
+
+.footer .links a i:hover{
+    color: white;
 }
 
 .footer p{
