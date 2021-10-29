@@ -117,7 +117,7 @@ html::-webkit-scrollbar-thumb{
 
 .home{
     display: flex;
-    background: url("https://vaibhavshanbhag.github.io/Vaibhav-Shanbhag/img/background.jpg") no-repeat center center/cover;
+    background: url("https://github.com/VaibhavShanbhag/Vaibhav/blob/master/img/background.jpg") no-repeat center center/cover;
     height: 100vh;
     color: white;
     min-height: 500px;
